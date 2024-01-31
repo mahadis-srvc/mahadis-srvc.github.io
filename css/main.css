@@ -5,18 +5,30 @@ html {
 }
 
 body {
-    font-family: helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica, arial, sans;
+    min-height: 100vh;
+}
+
+.content-container {
+    flex-grow: 1;
+    padding-top: 10vh;
+    width: 100%;
 }
 
 h1 {
     font-size: 7vw;
 }
+
 h2 {
     font-size: 2em;
 }
+
 a {
     color: #6397b5;
 }
+
 h2~p {
     font-size: 0.8em;
     font-style: italic;
@@ -129,8 +141,7 @@ h2~p {
     background-color: #c7dbfc;
     background-size: cover;
     box-sizing: border-box;
-    height: 100vh;
-    padding-top: 10vh;
+    height: 90vh;
 }
 
 .full-hero::after {
@@ -141,7 +152,8 @@ h2~p {
     font-size: 36px;
     height: 0;
     left: 50%;
-    position: absolute; /* pseudo-element is inline element, that's why position is absolute */
+    position: absolute;
+    /* pseudo-element is inline element, that's why position is absolute */
     transform: translate(-50%, 0);
     width: 0;
 }
