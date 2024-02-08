@@ -1,4 +1,10 @@
 <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+    <a class="drop-trigger" href="/blog/">Blog</a>
+    <ul class="drop-menu">
+        <li>Recent Posts</li>
+        <li></li>
+    </ul>
+</li>
 <li><a href="{{ site.posts.first.url }}">Newest Post</a></li>
