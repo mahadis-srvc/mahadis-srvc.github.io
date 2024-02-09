@@ -20,10 +20,12 @@ body {
 
 h1 {
     font-size: 7vw;
+    font-family: 'Honk', sans-serif;
 }
 
 h2 {
     font-size: 2em;
+    font-family: 'Honk', sans-serif;
 }
 
 h4 {
@@ -424,16 +426,17 @@ h2~p {
     box-sizing: border-box;
     color: #fff;
     display: inline-block;
-    font-family: helvetica, arial, sans;
-    font-size: 1rem;
+    font-family: 'Helvetica', arial, sans;
+    font-size: 2rem;
     font-weight: bold;
     height: 2.5em;
     line-height: 1;
-    padding-top: 0.85em;
+    padding-top: 0.7em;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     width: 2.5em;
+    text-indent: 0.7px;
 }
 
 .social-link:hover {
